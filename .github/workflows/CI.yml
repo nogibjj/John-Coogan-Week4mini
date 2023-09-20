@@ -1,4 +1,4 @@
-name: CI Matrix Build Workflow
+name: CI Matrix Build Workflow 3.8 3.9 3.11
 on: [push]
 jobs:
   build:
