@@ -1,11 +1,11 @@
-name: Workflow for Week 2 Mini Project
+name: CI Matrix Build Workflow
 on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.8,3.9]
+        python-version: [3.8,3.9,3.11]
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version}}
