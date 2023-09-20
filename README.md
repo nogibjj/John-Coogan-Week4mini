@@ -6,7 +6,9 @@
 
 [![Test](https://github.com/johncoogan53/PythonDataScience/actions/workflows/test.yml/badge.svg)](https://github.com/johncoogan53/PythonDataScience/actions/workflows/test.yml)
 
-### Testing matrix build (badges will be updated later)
+## Matrix Build Details:
+By executing a matrix CI workflow, we can identify that python 3.7 is incompatible with this project explicitly because the Black formatter is incompatible with versions of python earlier than 3.8:
+![Alt text](image.png)
 
 ## This is a workflow for a python script which performs descriptive statistics on a csv file
 ### This project has the following dependencies:
