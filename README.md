@@ -1,5 +1,7 @@
 [![CI Matrix Build Workflow](https://github.com/johncoogan53/Matrix-Build-Template/actions/workflows/CI.yml/badge.svg)](https://github.com/johncoogan53/Matrix-Build-Template/actions/workflows/CI.yml)
 
+[![CI Matrix Build Workflow 3.7](https://github.com/nogibjj/John-Coogan-Week4mini/actions/workflows/olderpython.yml/badge.svg)](https://github.com/nogibjj/John-Coogan-Week4mini/actions/workflows/olderpython.yml)
+
 [![Install](https://github.com/johncoogan53/PythonDataScience/actions/workflows/install.yml/badge.svg)](https://github.com/johncoogan53/PythonDataScience/actions/workflows/install.yml)
 
 [![Lint](https://github.com/johncoogan53/PythonDataScience/actions/workflows/lint.yml/badge.svg)](https://github.com/johncoogan53/PythonDataScience/actions/workflows/lint.yml)
