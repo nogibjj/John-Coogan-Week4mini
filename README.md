@@ -11,6 +11,7 @@
 ## Matrix Build Details:
 By executing a matrix CI workflow, we can identify that python 3.7 is incompatible with this project explicitly because the Black formatter is incompatible with versions of python earlier than 3.8:
 ![Alt text](image.png)
+We also execute a build on MacOS and Ubuntu. By attempting a matrix build on Windows we see that it is incompatible both with Make files and the bash commands in our Makefile which are executed by our respective yml files. This can be circumvented by having a separate yml for Windows builds with interpretable command line entries for that OS. This reduces the efficacy of automation for our project however, since we lose automated quality control having two yml scripts for different OS's with distinct commands. That is a topic for further inquirey but for now, windows deployment for python projects should be well considered with this issue in mind.
 
 ## This is a workflow for a python script which performs descriptive statistics on a csv file
 ### This project has the following dependencies:
